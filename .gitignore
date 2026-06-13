@@ -1,0 +1,20 @@
+# Assignment brief / rubric (Monash copyright — keep private)
+FIT1043 DS-A1 Rubric- S2 2025.pdf
+FIT1043 DS-A1 Specification- S2 2025.pdf
+
+# Jupyter checkpoints & Python cache
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Scratch / empty notebook
+Untitled.ipynb
+
+# Generated prediction output (contains student ID)
+*-TuanNgocChu-*.csv
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
