@@ -47,16 +47,19 @@ pip install pandas scikit-learn matplotlib
 jupyter notebook Assign1.ipynb
 ```
 
-Run the cells top to bottom; the CSVs sit alongside the notebook.
+Run the cells top to bottom; the notebook reads its data from `data/`.
 
 ## Repository structure
 
 ```
 .
-├── Assign1.ipynb                       # the full analysis
-├── Student_List_A2.csv                 # main dataset
-├── Student_List_A2_Submission.csv      # hold-out set for predictions
-└── Students_Performance_knn.csv        # Part B clustering dataset
+├── Assign1.ipynb                           # the full analysis
+├── data/
+│   ├── Student_List_A2.csv                 # main dataset
+│   ├── Student_List_A2_Submission.csv      # hold-out set for predictions
+│   └── Students_Performance_knn.csv        # Part B clustering dataset
+├── README.md
+└── .gitignore
 ```
 
 ## Built with
